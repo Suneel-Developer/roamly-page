@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import ArrowDown from "../assets/arrow-down.svg"
 import ArrowDownWhite from "../assets/arrow-down-white.svg"
-import ArrowCircleRight from "../assets/arrow-circle-right.svg"
+import DiceIcon from "../assets/dice-icon.svg"
 
 const ConcreteBox = () => {
     const [selectedConcrete, setSelectedConcrete] = useState("Electronics");
@@ -98,7 +98,7 @@ const ConcreteBox = () => {
             <div className='flex justify-between gap-2 items-center'>
                 <button className='bg-black-700 rounded-[10px] w-full h-10 flex-1 px-4 flex items-center justify-center text-white text-base f-anvenirnext-m text-center'>Regenerate</button>
                 <button className='bg-black_800 border-[.75px] border-white rounded-[10px] h-10 w-10 flex items-center justify-center'>
-                    <img src={ArrowCircleRight} alt="Arrow Circle Right" />
+                    <img src={DiceIcon} alt="Arrow Circle Right" />
                 </button>
             </div>
         </div>

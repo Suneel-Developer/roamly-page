@@ -1,11 +1,11 @@
 import React from 'react'
-import Blocks from "../assets/overcome-creative-blocks.svg"
-import Productivity from "../assets/boost-&-sustain-productivity.svg"
-import Emotions from "../assets/feel-good-emotions.svg"
+import Blocks from "../assets/overcome-creative-blocks.png"
+import Productivity from "../assets/boost-&-sustain-productivity.png"
+import Emotions from "../assets/feel-good-emotions.png"
 
 const WhyRoamly = () => {
     return (
-        <section className='w-full px-4 mt-32 md:mt-64 mb-40 lmd:mb-[500px]'>
+        <section className='w-full px-4 mt-32 md:mt-64 mb-40 lmd:mb-[396px]'>
             <h3 className='f-dmmono-m text-dark_gray text-[32px] text-center mb-14'>Why Roamly?</h3>
             <div className='max-w-[1300px] mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-20'>
                 <div className='flex flex-col items-center justify-start text-center gap-8'>

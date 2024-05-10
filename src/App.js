@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Ordinary from './components/Ordinary';
+import Team from './components/Team';
 import WhyRoamly from './components/WhyRoamly';
 import Works from './components/Works';
 
@@ -19,6 +20,7 @@ function App() {
       <Community />
       <Works />
       <WhyRoamly />
+      <Team/>
       <Ordinary />
       <Footer />
     </main>

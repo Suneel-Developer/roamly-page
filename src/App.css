@@ -13,10 +13,6 @@ body{
   font-family: "AvenirNext-Medium";
   src: url("./fonts/AvenirNext-Medium.woff") format("woff");
 }
-@font-face {
-  font-family: "AvenirNext-DemiBold";
-  src: url("./fonts/AvenirNext-DemiBold.ttf") format("truetype");
-}
 
 @font-face {
   font-family: "DMMono-Medium";
@@ -31,9 +27,7 @@ body{
 .f-anvenirnext-m {
   font-family: "AvenirNext-Medium", sans-serif;
 }
-.f-anvenirnext-db {
-  font-family: "AvenirNext-DemiBold", sans-serif;
-}
+
 .f-dmmono-r {
   font-family: "DMMono-Regular", sans-serif;
 }

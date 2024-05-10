@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from "../assets/logo.svg"
 import Instagram from "../assets/instagram.svg"
-import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (

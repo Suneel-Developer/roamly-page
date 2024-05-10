@@ -18,7 +18,8 @@ const Community = () => {
     return (
         <section className='w-full px-4'>
             <div className='w-full max-w-[1300px] mx-auto'>
-                <h3 className='text-dark_gray f-dmmono-m text-[32px] text-center mb-[60px]'>Community</h3>
+                <h3 className='text-dark_gray f-dmmono-m text-[32px] text-center mb-14'>Community</h3>
+                <h1 className='text-gray_900 f-anvenirnext-m text-3xl md:text-5xl text-center mb-[60px]'><span className='text-black_800'>Publish</span> your ideas to our <span className='text-purple'>community</span></h1>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lmd:grid-cols-3 gap-5'>
 
@@ -134,7 +135,9 @@ const Community = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-14'>
+                <h1 className='text-gray_900 f-anvenirnext-m text-3xl md:text-5xl text-center mb-[60px] mt-[100px]'><span className='text-black_800'>Post</span> and <span className='text-black_800'>customize</span> your <span className='text-purple'>profile</span></h1>
+
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     <img src={Image2} alt="Image" />
                     <img src={Image1} alt="Image" />
                 </div>
